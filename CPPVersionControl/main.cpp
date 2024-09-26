@@ -6,7 +6,14 @@ void greet()
 	std::cout << "Welcome!\n\n\n";
 }
 
+void byebye() 
+{
+	std::cout << "Byebye!\n\n\n";
+}
+
 int main()
 {
 	greet();
+
+	byebye();
 }
